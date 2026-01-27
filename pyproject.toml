@@ -1,0 +1,12 @@
+[project]
+name = "src"
+version = "0.0.1"
+description = "A project of vehicle isurance prediction"
+authors = [{name = "Lalit Raman Mishra",email = "lalitramanmishra@gmail.com"}]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+
+[tool.setuptools.dynamic]
+dependencies = {file = "requirements.txt"}
